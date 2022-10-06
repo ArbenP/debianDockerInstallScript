@@ -5,7 +5,7 @@ This script will install Docker, Portainer and Docker Compose for Ubuntu or Debi
 
 Clone the repository (you need git installed)
 ```
-git clone https://github.com/MultiTextinc/EasyDockerInstallScript.git
+git clone https://github.com/ArbenP/EasyDockerInstallScript.git
 ```
 Mark the script as executable
 ```
