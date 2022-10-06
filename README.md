@@ -15,5 +15,5 @@ Lastly, run as superuser.
 ```
 sudo ./install.sh
 ```
-
+Visit https://{Your Device IP}:9443 then to set up Portainer. 
 ## If this had helped you, give it a star!
