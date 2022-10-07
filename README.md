@@ -1,6 +1,6 @@
 # EasyDockerInstallScript
 This script will install Docker, Portainer and Docker Compose for Ubuntu or Debian based distros using APT.
- 
+Note: This is for amd64 only, this won't work on ARM devices such as Raspberry Pi
 # Usage
 
 Clone the repository (you need git installed)
