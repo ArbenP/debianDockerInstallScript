@@ -1,11 +1,5 @@
 #!/bin/bash
 set -e
-ARCH="$(arch)"
-
-if [ "$ARCH" != "aarch64" ]; then
-	echo "This script is only for x86 not for ARM."
-	exit 1
-fi
 
 echo "This will install Docker, docker compose and Portainer for Ubuntu/Debian based distros"
 apt-get update && apt-get upgrade -y
