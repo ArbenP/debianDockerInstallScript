@@ -3,17 +3,12 @@ This script will install Docker, Portainer and Docker Compose for Ubuntu or Debi
 Note: This is for amd64 only, this won't work on ARM devices such as Raspberry Pi
 # Usage
 
-Clone the repository (you need git installed)
 ```
-git clone https://github.com/ArbenP/EasyDockerInstallScript.git
+sudo su
 ```
-Mark the script as executable
 ```
-chmod +x install.sh
+wget https://raw.githubusercontent.com/ArbenP/EasyDockerInstallScript/master/install.sh -c -O install.sh && bash install.sh && rm install.sh
 ```
-Lastly, run as superuser.
-```
-sudo ./install.sh
-```
+
 Visit https://{Your Device IP}:9443 then to set up Portainer. 
 ## If this had helped you, give it a star!
